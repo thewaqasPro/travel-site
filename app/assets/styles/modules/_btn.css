@@ -3,6 +3,7 @@
     display: inline-block;
     padding: 0.75rem 1.2rem;
     text-decoration: none;
+    border-radius: .25rem;
     background-color: $mainBlue;
 
     &--orange {
@@ -10,8 +11,12 @@
     }
 
     &--large {
-        font-size: 1.25rem;
         padding: 1.1rem 1.9rem;
+
+        @mixin atSmall {
+            font-size: 1.25rem;
+        }
+
     }
     
 }
