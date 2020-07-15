@@ -3,7 +3,10 @@
     font-size: 1.875rem;
     color: $mainBlue;
 
-
+    @mixin atMedium {
+        font-size: 2.875rem;
+    }
+    
     &--center {
         text-align: center;
     }
@@ -13,13 +16,28 @@
     }
 
     &--small {
-        font-size: 1.875rem;
+        font-size: 1.3rem;
 
-        @mixin atLarge {
-            font-size: 2.875rem;
+        @mixin atMedium {
+            font-size: 1.875rem;
         }
     }
 
-   
-    
+    &--narrow {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+
+    &--light {
+        font-weight: 200;
+    }
+
+    &--b-margin-small {
+        margin: 0;
+    }
+
+    &--b-margin-large {
+        margin: 1.6em auto;
+    }
+
 }
