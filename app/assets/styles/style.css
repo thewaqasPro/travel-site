@@ -8,9 +8,11 @@
 
 
 @import 'modules/_btn.pcss';
+@import 'modules/_feature-item.pcss';
 @import 'modules/_generic-content.pcss';
 @import 'modules/_headline.pcss';
 @import 'modules/_large-hero.pcss';
 @import 'modules/_page-section.pcss';
 @import 'modules/_row.pcss';
+@import 'modules/_section-title.pcss';
 @import 'modules/_wrapper.pcss';
