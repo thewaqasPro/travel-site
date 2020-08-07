@@ -19,3 +19,5 @@
 @import "modules/_site-header.pcss";
 @import 'modules/_testimonial.pcss';
 @import 'modules/_wrapper.pcss';
+
+@import 'modules/_reveal-item.pcss';
