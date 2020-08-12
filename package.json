@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/thewaqasPro/travel-site#readme",
   "dependencies": {
+    "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",
     "normalize.css": "^8.0.1",
     "postcss-error-to-vscode-diagnostic": "^1.0.0"
